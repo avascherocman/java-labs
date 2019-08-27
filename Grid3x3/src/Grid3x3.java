@@ -1,10 +1,9 @@
-// Grid 3x3 Project
+// Grid 3x3 Lab
 // AP Computer Science A
 // Ava Scherocman
 // 8/21/2019
 
-//import Scanner, Swing, Colors
-import java.util.Scanner;
+//import swing, colors
 import javax.swing.*;
 import java.awt.*;
 
@@ -14,18 +13,36 @@ public class Grid3x3 {
     public static int height;
     //create GUI JFrame
     public static JFrame GUI = new JFrame();
+    //create container pane
+    public static Container pane = GUI.getContentPane();
     public static void main (String[] args) {
-        //create GUI
-        createGUI();
-        //ask user for dimensions of grid
-        getDimensions();
-        //display grid
-        displayPanels();
+        //answer used to test do while loop
+        int answer = JOptionPane.YES_OPTION;
+        do {
+            //create GUI
+            createGUI();
+            //remove all previous panels from pane (clear)
+            pane.removeAll();
+            //ask user for dimensions of grid
+            getDimensions();
+            //display grid
+            displayPanels();
+            //set answer to user input using dialog box
+            answer=JOptionPane.showConfirmDialog(null,
+                    "Would you like to run again?", "Confirm", JOptionPane.YES_NO_CANCEL_OPTION);
+           //if answer is no, close program
+            if (answer==JOptionPane.NO_OPTION){
+                System.exit(0);
+            }
+            //continue running loop until answer is "no" or "cancel"
+        } while (answer!=JOptionPane.NO_OPTION && answer!= JOptionPane.CANCEL_OPTION);
     }
     public static void getDimensions (){
         //create new dialog box and set visible
         JOptionPane askDimensions = new JOptionPane();
         askDimensions.setVisible(true);
+        height=0;
+        width=0;
         //set width and height to user input from dialog box
         width = Integer.parseInt(JOptionPane.showInputDialog("Enter width"));
         height = Integer.parseInt(JOptionPane.showInputDialog("Enter height"));
@@ -40,7 +57,6 @@ public class Grid3x3 {
     }
     public static void createPanel(){
         //create new pane and set layout to width x height
-        Container pane = GUI.getContentPane();
         pane.setLayout(new GridLayout(width,height));
         //create new panel
         JPanel panel = new JPanel();
