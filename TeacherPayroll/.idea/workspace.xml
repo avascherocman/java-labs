@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c17c25e0-7dbe-4b91-941a-041881fe477f" name="Default Changelist" comment="" />
+    <list default="true" id="b925c653-5335-44e1-8995-755e77be5548" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TeacherPayroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.7lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3.7lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.7lab/out/production/3.7lab/Graph$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.7lab/out/production/3.7lab/Graph$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.7lab/out/production/3.7lab/Graph$ColorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.7lab/out/production/3.7lab/Graph$ColorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.7lab/out/production/3.7lab/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.7lab/out/production/3.7lab/Graph.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +16,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/TeacherPayroll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+            <state relative-caret-position="100">
+              <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,13 +34,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Grid3x3/src/Grid3x3.java">
+        <entry file="file://$PROJECT_DIR$/../../javaEmployee/src/EmployeeTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="53" column="21" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="235" column="48" lean-forward="true" selection-start-line="235" selection-start-column="48" selection-end-line="235" selection-end-column="48" />
               <folding>
-                <element signature="e#0#2974#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#10582#0" expanded="true" />
+                <element signature="method#main#0;class#EmployeeTester#0" />
+                <element signature="method#mainMenu#0;class#EmployeeTester#0" />
+                <element signature="method#addEmployee#0;class#EmployeeTester#0" />
               </folding>
             </state>
           </provider>
@@ -54,8 +63,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Grid3x3/src/Grid3x3.java" />
-        <option value="$PROJECT_DIR$/src/Graph.java" />
+        <option value="$PROJECT_DIR$/src/TeacherPayroll.java" />
       </list>
     </option>
   </component>
@@ -63,15 +71,14 @@
     <option name="files">
       <list>
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/InterlinkAdmin.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="-18" />
+    <option name="y" value="-18" />
+    <option name="width" value="2916" />
+    <option name="height" value="1566" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,28 +86,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="3.7lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.7lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3.7lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.7lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TeacherPayroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeacherPayroll" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -118,78 +119,80 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph" />
-      <module name="3.7lab" />
+    <configuration name="TeacherPayroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TeacherPayroll" />
+      <module name="TeacherPayroll" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.TeacherPayroll" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c17c25e0-7dbe-4b91-941a-041881fe477f" name="Default Changelist" comment="" />
-      <created>1568340314132</created>
+      <changelist id="b925c653-5335-44e1-8995-755e77be5548" name="Default Changelist" comment="" />
+      <created>1569383850921</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568340314132</updated>
+      <updated>1569383850921</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579333" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Floobits" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32964602" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32844037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32964602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Floobits" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32964602" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph.java">
+    <entry file="file://$PROJECT_DIR$/../../javaEmployee/src/EmployeeTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+        <state relative-caret-position="272">
+          <caret line="235" column="48" lean-forward="true" selection-start-line="235" selection-start-column="48" selection-end-line="235" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#10582#0" expanded="true" />
+            <element signature="method#main#0;class#EmployeeTester#0" />
+            <element signature="method#mainMenu#0;class#EmployeeTester#0" />
+            <element signature="method#addEmployee#0;class#EmployeeTester#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Grid3x3/src/Grid3x3.java">
+    <entry file="file://$PROJECT_DIR$/src/TeacherPayroll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="53" column="21" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
           <folding>
-            <element signature="e#0#2974#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -245,7 +248,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>3.7lab</last-edited>
+          <last-edited>TeacherPayroll</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
