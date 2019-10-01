@@ -12,7 +12,7 @@ public class TeacherPayroll {
         //create GUI
         JFrame GUI = new JFrame();
         //create string of titles to apply to labels
-        String[] labelTitles = {"Base Salary", "Education Level", "Years Teaching"};
+        String[] labelTitles = {"Base Salary", "Education Level (0-Bachelor, 1-Master, 2-Doctorate", "Years Teaching"};
         //create array of labels
         JLabel[] labels = new JLabel[3];
         //create array of text fields for input
@@ -34,7 +34,7 @@ public class TeacherPayroll {
         GUI.setLayout(new FlowLayout());
         //set GUI settings
         GUI.setResizable(true);
-        GUI.setSize(300, 250);
+        GUI.setSize(325, 250);
         GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         GUI.setVisible(true);
 
@@ -96,29 +96,9 @@ public class TeacherPayroll {
         // JTable properties.
         table.setLocation(0,0);
         table.setSize(400,335);
-        // Add table to pane2.
+        // Add table to GUI
         GUI.add(table);
-        /*//create array of labels for displaying column titles
-        JLabel[] labels = new JLabel[4];
-        GUI.setLayout(new GridLayout(20, 4));
-        String[] labelTitles = {"     ", "Bachelor", "Master", "Doctorate"};
-        //set GUI layout
-        for (int i = 0; i < labels.length; i++) {
-            labels[i] = new JLabel(labelTitles[i]);
-            GUI.add(labels[i]);
-        }
 
-        for (int j = 0; j < 20; j++) {
-            JLabel num = new JLabel(Integer.toString(j));
-            JLabel b = new JLabel();
-            JLabel m = new JLabel(Integer.toString(base + 500 + (j * 1000)));
-            JLabel d = new JLabel(Integer.toString(base + 1000 + (j * 1000)));
-            GUI.add(num);
-            GUI.add(b);
-            GUI.add(m);
-            GUI.add(d);
-
-        }*/
         GUI.setResizable(true);
         GUI.setSize(500, 500);
         GUI.setVisible(true);
