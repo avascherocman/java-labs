@@ -102,7 +102,7 @@ abstract public class Employee {
 
     @Override
     public String toString(){
-        return "Name: "+ this.name + "\nRate: " + this.rate + "\nHours: "+this.hours+"\nID: " + this.id;
+        return "Name: "+ this.name + "\nRate: $" + this.rate + "\nHours: "+this.hours+"\nID: " + this.id;
     }
 }
 
